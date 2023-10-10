@@ -1,0 +1,26 @@
+/* Style for the entire navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0b0b0b;
+  padding: 10px 0;
+}
+
+/* Style for the links container */
+.navbar .links {
+  display: flex;
+  gap: 100px; /* Adds space between the links */
+}
+
+/* Style for each link */
+.navbar .links a {
+  text-decoration: none; /* Removes underline from links */
+  color: white; /* Makes link text white */
+  transition: 0.3s; /* Adds a smooth transition effect for hover */
+}
+
+/* Style for each link on hover */
+.navbar .links a:hover {
+  transform: scale(1.1); /* Slightly enlarges the icon/link on hover */
+}

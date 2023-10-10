@@ -9,7 +9,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<div>Home Content</div>} />
-          <Route path="/cart" element={<div>Cart Content</div>} />
+          <Route path="/cart" element={<div>Cart</div>} />
+          <Route path="/clothes" element={<div> Clothes </div>} />
+          <Route path= "/board" element={<div>Skateboards</div>} />
         </Routes>
       </Router>
     </div>

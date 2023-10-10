@@ -4,6 +4,8 @@ import { ShoppingCart } from 'phosphor-react';
 import { Ghost } from 'phosphor-react';
 import { TShirt } from 'phosphor-react';
 import {MdSkateboarding} from "react-icons/md";
+import './Navbar.css';
+
 
 export const Navbar = () => {
   return (
